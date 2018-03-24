@@ -14,6 +14,7 @@ mongoose.connect(keys.mongoURI, {
 });
 require("./models/User");
 require("./models/Item");
+require("./services/cache");
 const app = express();
 
 app.use(bodyParser.json());
