@@ -1,6 +1,6 @@
 Express Boilerplate for building REST APIs
 
-* [Express](https://www.express.com/)
+* [Express](https://expressjs.com/)
 * [Mongoose](http://mongoosejs.com/)
 * [Redis](https://redis.io/)
 
