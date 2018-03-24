@@ -1,2 +1,1 @@
-# express-starter
-Express boilerplate
+# Express Starter project
