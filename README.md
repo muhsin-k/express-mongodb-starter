@@ -12,7 +12,7 @@
 ```sh
 # clone it
 git clone https://github.com/muhzi4u/express--mongodb-starter.git
-cd express--mongodb-starter/
+cd express-mongodb-starter/
 # Make it your own
 rm -rf .git && git init
 # Install dependencies
