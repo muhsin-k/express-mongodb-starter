@@ -1,26 +1,44 @@
-Express Boilerplate for building REST APIs
+<h4 align="center">Express Boilerplate for building REST APIs</h4>
 
-* [Express](https://expressjs.com/)
-* [Mongoose](http://mongoosejs.com/)
-* [Redis](https://redis.io/)
+<div align="center">
+  Built with ❤︎  
+</div>
 
-## Getting Started
+## Architecture
+
+<img src="sketch/architecture.png" alt="architecture" />
+
+* [Express](https://expressjs.com/)- Nodejs framwork for building the REST Apis
+* [Mongodb](http://mongodb.com/)- Document oriented NoSQL database
+* [Mongoose](https://http://mongoosejs.com)- MongoDB object modeling tool
+* [Redis](https://redis.io/)- In memory key-value database
+
+#### Clone the project
 
 ```sh
 # clone it
-git clone https://github.com/muhzi4u/express-starter.git
-cd express-starter
-
+git clone https://github.com/muhzi4u/express--mongodb-starter.git
+cd express--mongodb-starter/
 # Make it your own
-rm -rf .git && git init && npm init
+rm -rf .git && git init
+```
 
 # Install dependencies
+
 yarn install
 
-# Start  server
+# Start server
+
 yarn run server
+
 ```
+## ☑ TODO
+
+* [ ] Documentation
+* [ ] CI with Travis
+* [ ] Docker
 
 ## License
 
 MIT
+```
