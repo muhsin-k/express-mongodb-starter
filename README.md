@@ -1,12 +1,6 @@
-<h4 align="center">Express Boilerplate for building REST APIs</h4>
-
-<div align="center">
-  Built with ❤︎  
-</div>
-
 ## Architecture
 
-<img src="sketch/architecture.png" alt="architecture" />
+<img src="sketch/Architecture.png" alt="architecture" />
 
 * [Express](https://expressjs.com/)- Nodejs framwork for building the REST Apis
 * [Mongodb](http://mongodb.com/)- Document oriented NoSQL database
