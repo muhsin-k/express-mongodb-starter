@@ -24,13 +24,13 @@ yarn install
 yarn run server
 ```
 
-## ☑ TODO
+#### ☑ TODO
 
 * [ ] Documentation
 * [ ] CI with Travis
 * [ ] Docker
 
-## License
+#### License
 
 MIT
 
