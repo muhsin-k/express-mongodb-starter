@@ -1,6 +1,6 @@
 ## Architecture
 
-<img src="sketch/Architecture.png" alt="architecture" />
+<img src="sketch/arch.png" alt="architecture" />
 
 * [Express](https://expressjs.com/)- Nodejs framwork for building the REST Apis
 * [Mongodb](http://mongodb.com/)- Document oriented NoSQL database
