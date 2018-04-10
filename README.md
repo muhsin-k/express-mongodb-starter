@@ -34,6 +34,3 @@ yarn run server
 
 MIT
 
-```
-
-```
