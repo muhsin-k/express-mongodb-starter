@@ -4,22 +4,23 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const keys = require("./config/keys");
 
-//Connect to MongoDB
+//Connect MongoDB
 mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI, {
   keepAlive: true,
   reconnectTries: Number.MAX_VALUE,
   useMongoClient: true
 });
+// Initialize Mongo Models
 require("./models/User");
 require("./models/Item");
-require("./services/cache");
+// Initialize Redis
+// require("./services/cache");
 const app = express();
 
 app.use(bodyParser.json());
-
-require("./routes/User")(app);
-require("./routes/Item")(app);
+// API Routes
+app.use("/api", require("./routes/index"));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
