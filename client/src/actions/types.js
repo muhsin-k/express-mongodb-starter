@@ -1,0 +1,10 @@
+export const INIT__FETCH = "init_fetch";
+export const COMPLETE_FETCH = "complete_fetch";
+export const INIT__FULL_CONTACT = "init_full_contact";
+export const COMPLETE_FULL_CONTACT = "complete_full_contact";
+export const ALL_CONTACTS = "all_contacts";
+export const FULL_CONTACT = "full_contact";
+export const SINGLE_CONTACT = "single_contact";
+export const ADD_CONTACT = "add_contact";
+export const DELETE_CONTACT = "delete_contact";
+export const UPDATE_CONTACT = "update_contact";

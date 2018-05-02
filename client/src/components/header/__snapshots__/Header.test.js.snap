@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly[Snapshot] 1`] = `
+<div>
+  <nav>
+    <div
+      className="nav-wrapper"
+    >
+      <a
+        className="brand-logo center"
+        href="/"
+      >
+        Contact Management
+      </a>
+    </div>
+  </nav>
+</div>
+`;

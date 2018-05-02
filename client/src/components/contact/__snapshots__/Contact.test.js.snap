@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly[Snapshot] 1`] = `
+<div
+  className="contact"
+>
+  <div
+    className="row main-area "
+  >
+    <div
+      className="col s4"
+    >
+      <img
+        alt="profilepic"
+        height="100"
+        src="https://d2ojpxxtu63wzl.cloudfront.net/static/40d467520759865d5b2b669e242033f5_08fbfcfd9529b0affb3efe7090dee8fb3b92a494cb83b76d76c8e1130472a642"
+        width="100"
+      />
+    </div>
+    <div
+      className="col s8"
+    >
+      <div
+        className="row"
+      >
+        <p>
+          Muhsin
+           
+          Keloth
+        </p>
+        <p>
+          muhsinkeramam@gmail.com
+           
+        </p>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col s4 button-container"
+        >
+          <a
+            className="waves-effect waves-light btn"
+            onClick={[Function]}
+          >
+            <i
+              className="material-icons left"
+            >
+              info
+            </i>
+          </a>
+        </div>
+        <div
+          className="col s4 button-container"
+        >
+          <a
+            className="waves-effect waves-light btn"
+            onClick={[Function]}
+          >
+            <i
+              className="material-icons left"
+            >
+              edit
+            </i>
+          </a>
+        </div>
+        <div
+          className="col s4 button-container"
+        >
+          <a
+            className="waves-effect waves-light btn"
+            onClick={[Function]}
+          >
+            <i
+              className="material-icons left"
+            >
+              delete
+            </i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
